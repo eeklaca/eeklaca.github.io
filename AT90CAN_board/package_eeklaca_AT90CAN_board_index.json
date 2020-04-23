@@ -8,7 +8,7 @@
       "help": {
         "online": ""
       },
-      "platforms": 
+      "platforms": [
         {
           "name": "ATmegaM1-C1",
           "architecture": "avr",
@@ -39,7 +39,7 @@
             }
           ]
         },
-     
+	],
       "tools": []
     }
   ]
