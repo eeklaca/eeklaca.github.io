@@ -1,0 +1,46 @@
+{
+  "packages": [
+    {
+      "name": "AT90CAN_board",
+      "maintainer": "Laszlo Toth",
+      "websiteURL": "https://github.com/eeklaca/AT90CAN_board",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "ATmegaM1-C1",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/eeklaca/AT90CAN_board/archive/master.zip",
+          "archiveFileName": "AT90CAN_board-master.zip",
+          "checksum": "SHA-256:6a4f50b6043bb207543d95697b9453e406ae305ebeb093b3c80e1a52eea78691",
+          "size": "93027",
+          "boards": [
+            {"name": "AT90CAN32"},
+			{"name": "AT90CAN64"},
+            {"name": "AT90CAN128"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
+      ],
+      "tools": []
+    }
+  ]
+}
